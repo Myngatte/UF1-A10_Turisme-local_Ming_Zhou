@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0%;
+}
+
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+h5{
+    font-size: 1.15rem;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column1{
+    width: 100%;
+    float: left;
+}
+
+.column2{
+    width: 50%;
+    float: left;
+}
+
+.column3{
+    width: 33.33%;
+    float: left;
+}
+
+.column4{
+    width: 25%;
+    float: left;
+}
+
+.column5{
+    width: 20%;
+    float: left;
+}
+
+.column6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+.column-25{
+    width: 25%;
+    float: left;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------------------------------------------------------------------------------------*/
+header{
+    height: 100vh;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#title{
+    font-size: 298px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
